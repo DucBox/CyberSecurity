@@ -24,6 +24,19 @@ Decrypted: Hello, Salsa20!
 Salsa20 Generation Time: 5.387058973312378 seconds
 RC4 Generation Time: 0.0003523826599121094 seconds
 
+# DES Algorithm
+DES, short for Data Encryption Standard, is a block cipher encryption algorithm developed by IBM in the 1970s and later recognized as an official encryption standard by the U.S. government in 1977. DES has been widely used in cryptographic applications for many years but has since been replaced by stronger encryption algorithms such as AES (Advanced Encryption Standard).
+
+# Example
+plaintext = 0x0123456789ABCDEF
+
+key = 0x133457799BBCDFF1
+
+# Result
+Encrypted Text (DES): 85e813540f0ab405
+
+Decrypted Text (DES) (hex): 0123456789abcdef
+
 # Compare DES to RC4
 Case 1:
 Time taken for DES encryption: 0.001227 seconds
