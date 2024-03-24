@@ -29,14 +29,34 @@ RC4 Generation Time: 0.0003523826599121094 seconds
 DES, short for Data Encryption Standard, is a block cipher encryption algorithm developed by IBM in the 1970s and later recognized as an official encryption standard by the U.S. government in 1977. DES has been widely used in cryptographic applications for many years but has since been replaced by stronger encryption algorithms such as AES (Advanced Encryption Standard).
 
 # Example
+No.1
+
 plaintext = 0x0123456789ABCDEF
 
 key = 0x133457799BBCDFF1
 
+No.2
+
+key_des = b"mysecret"
+
+plaintext = b"Hello, DES!"
+
 # Result
+
+No.1
+
 Encrypted Text (DES): 85e813540f0ab405
 
 Decrypted Text (DES) (hex): 0123456789abcdef
+
+No.2
+
+Encrypted Text (DES): b'\x90\xe3\x9d\x8de\xf1\xaa\xe6\xd5lo\xbb\xf7\xc68\xcf'
+
+Encrypted Text (DES-hex): 90e39d8d65f1aae6d56c6fbbf7c638cf
+
+Decrypted Text (DES): Hello, DES!
+
 
 # Compare DES to RC4
 Case 1:
