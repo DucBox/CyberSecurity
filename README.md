@@ -29,14 +29,17 @@ Case 1:
 Time taken for DES encryption: 0.001227 seconds
 
 Time taken for RC4 encryption: 0.000046 seconds
+
 Case 2:
 Time taken for DES encryption: 0.000088 seconds
 
 Time taken for RC4 encryption: 0.000043 seconds
+
 Case 3:
 Time taken for DES encryption: 0.000096 seconds
 
 Time taken for RC4 encryption: 0.000045 seconds
+
 Case 4:
 Time taken for DES encryption: 0.000054 seconds
 
