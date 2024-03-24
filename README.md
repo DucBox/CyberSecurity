@@ -19,3 +19,6 @@ Decrypted: Hello, Salsa20!
 # Compare
 Salsa20 Generation Time: 5.387058973312378 seconds
 RC4 Generation Time: 0.0003523826599121094 seconds
+
+# Source Code
+[Code](https://colab.research.google.com/drive/148CgeQQzID6h9XUVg9Igz2wtqXeK6Hin#scrollTo=wnQ-cZVr-4pb)
